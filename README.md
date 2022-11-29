@@ -37,30 +37,27 @@ sombras: `0px 4px 4px rgba(0, 0, 0, 0.16)`
 
 ## Ícones
 
-Estão dentro do arquivo de fonte `icones.ttf`. Para usar, primeiro importe a fonte no projeto usando `@font-face` e depois utilize os códigos abaixo para exibir o ícone.
+Eles são disponibilizados através do https://icons.getbootstrap.com/#install e depois é só adicionar o outro link no css.
 
 ```css
-@font-face {
-    font-family: 'icones';
-    src: url(../font/icones.ttf);
-}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 ```
 
 > Cuidado com a localização do arquivo `icones.ttf`
 
 Camisas = `\e900`
 
-Carrinho = `\e901`
+Carrinho = `<i class="bi bi-cart-plus"></i>`
 
 Inicio = `\e902`
 
 Integrantes = `\e903`
 
-Menu = `\e904`
+Menu = `<i class="bi bi-list"></i>`
 
-Moeda = `\e905`
+Moeda = `<i class="bi bi-coin"></i>`
 
-Notificação = `\e906`
+Notificação = `<i class="bi bi-bell"></i>`
 
 Pico = `\e908`
 
@@ -68,11 +65,11 @@ Picos = `\e909`
 
 Pinturas = `\e90a`
 
-Play = `\e90b`
+Play = `<i class="bi bi-play"></i>`
 
-Relogio = `\e90c`
+Relogio = `<i class="bi bi-stopwatch"></i>`
 
-Seta-baixo = `\e90d`
+Seta-baixo = `<i class="bi bi-arrow-down"></i>`
 
 Videos = `\e90e`
 
