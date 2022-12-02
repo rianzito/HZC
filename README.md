@@ -69,7 +69,9 @@ Play = `<i class="bi bi-play"></i>`
 
 Relogio = `<i class="bi bi-stopwatch"></i>`
 
-Seta-baixo = `<i class="bi bi-arrow-down"></i>`
+Seta-baixo = `<i class="bi bi-arrow-down"></i>
+
+`
 
 Videos = `\e90e`
 
